@@ -366,11 +366,14 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
             </select>
           </div>
 
-          {/* ✅ CALENDAR — OUTSIDE GRID */}
           {/* ===== Calendar Section ===== */}
-          
-
-
+          <input
+            type="date"
+            name="call_date"
+            required
+            className="w-full p-3 border border-gray-300 rounded-lg"
+            min={new Date().toISOString().split('T')[0]}
+          />
 
 
           {/* Submit button */}
