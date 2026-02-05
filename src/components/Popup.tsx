@@ -366,13 +366,11 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
             </select>
           </div>
 
-          {/* ===== Calendar Section ===== */}
+          {/* Hidden call_date field - auto-filled with today's date */}
           <input
-            type="date"
+            type="hidden"
             name="call_date"
-            required
-            className="w-full p-3 border border-gray-300 rounded-lg"
-            min={new Date().toISOString().split('T')[0]}
+            value={new Date().toISOString().split('T')[0]}
           />
 
 
