@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ChangeEvent } from "react";
-import "../components/Popup.css";
+import "./Popup.css";
 
 interface PopupProps {
   show: boolean;

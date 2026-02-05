@@ -1,13 +1,15 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
+// Use BASE_PATH env variable to set subdirectory deployment (e.g., "/Algo" for Hostinger)
+// Leave unset or empty for root deployment (e.g., Vercel)
+const basePath = process.env.BASE_PATH || "";
 
 const nextConfig: NextConfig = {
   output: "export",
 
-  ...(isProd && {
-    basePath: "/Algo",
-    assetPrefix: "/Algo",
+  ...(basePath && {
+    basePath: basePath,
+    assetPrefix: basePath,
   }),
 
   images: {
