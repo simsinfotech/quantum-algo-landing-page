@@ -16,12 +16,13 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
                 {/* Header with Logo and Button */}
                 <div className="flex justify-between items-center mb-6 sm:mb-12 pt-2">
                     {/* QA Logo */}
-                    <div>
+                    <div className="flex flex-col items-start">
                         <img
                             src="/QA%20logo.png"
                             alt="Quantum Algo"
                             className="h-8 sm:h-12 md:h-16 w-auto"
                         />
+                        <span className="text-gray-400 text-[8px] sm:text-[10px] md:text-xs font-semibold tracking-wide mt-0.5">by MarketScore</span>
                     </div>
 
                     {/* Apply Now Button */}

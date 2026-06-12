@@ -305,12 +305,13 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             <div className="py-8 sm:py-12 border-t border-white/10" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 100%)' }}>
                 <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
                     {/* QA Logo */}
-                    <div className="mb-4 sm:mb-6 flex justify-center">
+                    <div className="mb-4 sm:mb-6 flex flex-col items-center">
                         <img
                             src="/QA%20logo.png"
                             alt="Quantum Algo"
                             className="h-12 sm:h-16 md:h-20 w-auto"
                         />
+                        <span className="text-gray-400 text-[10px] sm:text-xs md:text-sm font-semibold tracking-wide mt-1">by MarketScore</span>
                     </div>
 
                     {/* Copyright Text */}

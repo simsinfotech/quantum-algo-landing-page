@@ -62,8 +62,9 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
     <div className="popup-overlay">
       <div className="popup-box">
         {/* Logo */}
-        <div className="flex items-center justify-center py-4">
-          <img src="/QA%20logo.png" alt="boatcraft" className="h-12 w-12" />
+        <div className="flex flex-col items-center justify-center py-4">
+          <img src="/QA%20logo.png" alt="Quantum Algo" className="h-12 w-12" />
+          <span className="text-gray-400 text-[9px] font-semibold tracking-wide mt-0.5">by MarketScore</span>
         </div>
 
         {/* Close button */}
