@@ -13,7 +13,7 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
                         The Smarter Way Professionals Trade With AI
                     </h2>
                     <p className="text-[#A60D60] font-bold text-lg md:text-xl text-center mb-10">
-                        How I Help UAE Traders Create Consistent, Automated Forex Returns
+                        How I Help Traders Create Consistent, Automated Forex Returns
                     </p>
                 </ScrollAnimate>
 
@@ -83,15 +83,15 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
 
                 {/* Urgency Text */}
                 <p className="text-sky-400 font-bold text-sm text-center mt-4">
-                    HURRY! Only 4 onboarding slots left until December 2025.
+                    HURRY! Only 4 onboarding slots left until December 2026.
                 </p>
 
                 {/* Chart Image with Verified Results Overlay */}
                 <div className="mt-10 relative mx-0 md:-mx-20 lg:-mx-32">
                     <div className="overflow-hidden bg-white p-2">
                         <img
-                            src="https://quantumalgo.pro/1-year-backtest.jpg"
-                            alt="1 Year Backtest - Verified Results"
+                            src="/stock%20graph.png"
+                            alt="Verified Trading Results"
                             className="w-full h-auto border border-white"
                         />
                     </div>

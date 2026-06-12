@@ -103,7 +103,7 @@ export default function GetStarted({ openPopup }: { openPopup: () => void }) {
                             Apply Now
                         </button>
                         <p className="text-sky-400 font-bold text-sm mt-4">
-                            HURRY! Only 4 onboarding slots left until December 2025.
+                            HURRY! Only 4 onboarding slots left until December 2026.
                         </p>
                     </div>
                 </ScrollAnimate>

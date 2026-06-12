@@ -14,23 +14,26 @@ const Popup: React.FC<PopupProps> = ({ show, onClose }) => {
 const [msg, setMsg] = useState<string>("");
 
 const [phonePlaceholder, setPhonePlaceholder] = useState<string>(
-  "Enter 7–12 digit number"
+  "Enter 10-digit number"
 );
 
 const [phonePattern, setPhonePattern] = useState<string>(
-  "^[0-9]{7,12}$"
+  "^[0-9]{10}$"
 );
 
 
   useEffect(() => {
     fetch("https://getnos.io/Algo/main.php")
-      .then((response) => response.json())
-      .then((data: ApiResponse) => {
+      .then((response) => {
+        if (!response.ok) return;
+        return response.json();
+      })
+      .then((data: ApiResponse | undefined) => {
         if (data?.message) {
           setMsg(data.message);
         }
       })
-      .catch((error) => console.error("Error fetching data:", error));
+      .catch(() => {});
   }, []);
 
   if (!show) return null;
@@ -40,7 +43,7 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
   const value = e.target.value;
 
   if (value === "+971") {
-    // UAE: 7–12 digits
+    // +971: 7–12 digits
     setPhonePlaceholder("Enter 7–12 digit number");
     setPhonePattern("^[0-9]{7,12}$");
   } else if (value === "+91") {
@@ -70,8 +73,11 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
 
         {/* Heading */}
         <div className="text-center mb-4">
-          <h2 className="text-xl font-bold text-blue-700 uppercase">
-            Hurry: 7 Seats Left! Waitlist Extends to 2026
+          <div className="inline-block bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-2 animate-pulse">
+            Only 7 Seats Left
+          </div>
+          <h2 className="text-xl font-bold text-gray-900 uppercase">
+            Hurry! <span className="text-[#A60D60]">Join Waitlist</span>
           </h2>
           <p className="text-sm text-gray-700 mt-1">
             Reserve your spot now for the 3-Day AI Sales Bootcamp
@@ -120,11 +126,11 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
  <select
   name="country_code"
   required
-  defaultValue="+971"
+  defaultValue="+91"
   onChange={handleCountryChange}
 >
 
-<option value="+971">+971 (UAE)</option>
+<option value="+971">+971</option>
 <option value="+93">+93 (Afghanistan)</option>
 <option value="+355">+355 (Albania)</option>
 <option value="+213">+213 (Algeria)</option>
@@ -308,62 +314,66 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
           {/* ===== Dropdowns side by side ===== */}
           {/* ===== Dropdowns side by side ===== */}
           <div className="dropdown-grid">
-          <select name="goal" required defaultValue="">
-  <option value="" disabled hidden>
-    What are you looking to gain with Quantum Algo?
-  </option>
+            <div className="dropdown-field">
+              <label className="dropdown-label">What are you looking to gain with Quantum Algo?</label>
+              <select name="goal" required defaultValue="">
+                <option value="" disabled hidden>Select an option</option>
+                <option value="Maximize trading profits without the hassle">
+                  Maximize trading profits without the hassle
+                </option>
+                <option value="Diversify my investment strategy">
+                  Diversify my investment strategy
+                </option>
+                <option value="Achieve financial freedom through automated trading">
+                  Achieve financial freedom through automated trading
+                </option>
+                <option value="Leverage expert-built algorithms for better returns">
+                  Leverage expert-built algorithms for better returns
+                </option>
+              </select>
+            </div>
 
-  <option value="Maximize trading profits without the hassle">
-    Maximize trading profits without the hassle
-  </option>
-  <option value="Diversify my investment strategy">
-    Diversify my investment strategy
-  </option>
-  <option value="Achieve financial freedom through automated trading">
-    Achieve financial freedom through automated trading
-  </option>
-  <option value="Leverage expert-built algorithms for better returns">
-    Leverage expert-built algorithms for better returns
-  </option>
-</select>
+            <div className="dropdown-field">
+              <label className="dropdown-label">Do you have $5000 to invest?</label>
+              <select name="investment_ready" required defaultValue="">
+                <option value="" disabled hidden>Select an option</option>
+                <option value="Yes, I have the funds available">
+                  Yes, I have the funds available
+                </option>
+                <option value="I can secure funding">
+                  I can secure funding
+                </option>
+                <option value="No, end this application">
+                  No, end this application
+                </option>
+              </select>
+            </div>
 
+            <div className="dropdown-field">
+              <label className="dropdown-label">How committed are you to starting the done-for-you program?</label>
+              <select name="commitment" required defaultValue="">
+                <option value="" disabled hidden>Select an option</option>
+                <option value="Ready to start immediately">
+                  Ready to start immediately
+                </option>
+                <option value="Interested but need more details">
+                  Interested but need more details
+                </option>
+                <option value="Just exploring options">
+                  Just exploring options
+                </option>
+              </select>
+            </div>
 
-            <select name="investment_ready" required defaultValue="">
-              <option value="" disabled hidden>Do you have $5000 to invest?</option>
-              <option value="Yes, I have the funds available">
-                Yes, I have the funds available
-              </option>
-              <option value="I can secure funding">
-                I can secure funding
-              </option>
-              <option value="No, end this application">
-                No, end this application
-              </option>
-            </select>
-
-            <select name="commitment" required defaultValue="">
-              <option value="" disabled hidden>
-                How committed are you to starting the done-for-you program?
-              </option>
-              <option value="Ready to start immediately">
-                Ready to start immediately
-              </option>
-              <option value="Interested but need more details">
-                Interested but need more details
-              </option>
-              <option value="Just exploring options">
-                Just exploring options
-              </option>
-            </select>
-
-            <select name="experience" required defaultValue="">
-              <option value="" disabled hidden>
-                How would you describe your experience as a trader?
-              </option>
-              <option value="Beginner">Beginner</option>
-              <option value="Intermediate">Intermediate</option>
-              <option value="Advanced">Advanced</option>
-            </select>
+            <div className="dropdown-field">
+              <label className="dropdown-label">How would you describe your experience as a trader?</label>
+              <select name="experience" required defaultValue="">
+                <option value="" disabled hidden>Select an option</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+              </select>
+            </div>
           </div>
 
           {/* Hidden call_date field - auto-filled with today's date */}

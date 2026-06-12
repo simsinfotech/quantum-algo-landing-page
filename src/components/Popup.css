@@ -101,11 +101,11 @@
 }
 
 .phone-input-container select {
-  width: 40%;
+  width: 20%;
 }
 
 .phone-input-container input {
-  width: 60%;
+  width: 80%;
 }
 
 /* CTA Button */
@@ -250,6 +250,25 @@
     max-width: 95%;
   }
 }
+/* Dropdown field with label */
+.dropdown-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+
+.dropdown-field select {
+  margin-top: 0;
+}
+
 /* Dropdown grid layout */
 .dropdown-grid {
   display: grid;

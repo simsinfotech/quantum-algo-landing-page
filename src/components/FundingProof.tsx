@@ -27,7 +27,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                             className="text-2xl md:text-3xl lg:text-4xl font-black text-gray-900 leading-tight"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
-                            <strong><em>I've Helped UAE Traders<br />
+                            <strong><em>I've Helped Traders<br />
                             Access $30M+ In Capital<br />
                             Using Disciplined, AI-Driven<br />
                             Trading Strategies</em></strong>
@@ -93,7 +93,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                         Apply Now
                     </button>
                     <p className="text-sky-400 font-bold text-sm text-center mt-4 bg-[#f5f5f5] py-2">
-                        HURRY! Only 4 onboarding slots left until December 2025.
+                        HURRY! Only 4 onboarding slots left until December 2026.
                     </p>
                 </div>
             </div>

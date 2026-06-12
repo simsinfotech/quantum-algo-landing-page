@@ -31,7 +31,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             location: "Abu Dhabi",
             title: "Hear Rajeev's Story With Quantum Algo…",
             video: "",
-            text1: "As someone who moved to UAE for better trading opportunities, this system was exactly what I needed.",
+            text1: "As someone looking for better trading opportunities, this system was exactly what I needed.",
             text2: "Professional-grade automation with real support from real people."
         }
     ];
@@ -166,7 +166,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
 </button>
 
                         <p className="text-sky-400 font-bold text-sm mt-4">
-                            HURRY! Only 4 onboarding slots left until December 2025.
+                            HURRY! Only 4 onboarding slots left until December 2026.
                         </p>
                     </div>
                 </div>
@@ -209,7 +209,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
 
                         <div className="bg-[#E8D4F0] p-6 rounded-lg mt-8">
                             <p className="text-gray-900 text-lg leading-relaxed font-bold">
-                                I will help you with your $100K funded account within 30 days of approval and start making real withdrawals using professional AI strategies built for sophisticated UAE traders, not one-size-fits-all bots.
+                                I will help you with your $100K funded account within 30 days of approval and start making real withdrawals using professional AI strategies built for sophisticated traders, not one-size-fits-all bots.
                             </p>
                         </div>
                     </div>
@@ -295,7 +295,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                             Apply To Start Your Own
                         </button>
                         <p className="text-sky-400 font-bold text-sm mt-4">
-                            HURRY! Only 4 onboarding slots left until December 2025.
+                            HURRY! Only 4 onboarding slots left until December 2026.
                         </p>
                     </div>
                 </div>

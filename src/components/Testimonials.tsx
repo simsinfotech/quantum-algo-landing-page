@@ -117,7 +117,7 @@ export default function Testimonials({ openPopup }: { openPopup: () => void }) {
                         className="text-2xl md:text-3xl font-black text-white text-center mb-4"
                         style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic' }}
                     >
-                        <em>See What Our UAE Traders Say…</em>
+                        <em>See What Our Traders Say…</em>
                     </h2>
                     <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
                         Real, Unfiltered Results From Real Professionals.
@@ -198,14 +198,14 @@ export default function Testimonials({ openPopup }: { openPopup: () => void }) {
                         Join Traders Getting These Results
                     </button>
                     <p className="text-sky-400 font-bold text-sm mt-4">
-                        HURRY! Only 4 onboarding slots left until December 2025.
+                        HURRY! Only 4 onboarding slots left until December 2026.
                     </p>
                 </div>
 
                 {/* Rating Footer */}
                 <div className="text-center mt-8">
                     <p className="text-gray-400 text-sm">
-                        Rated <span className="text-white font-bold">4.7</span> / 5 by <span className="text-white underline">1,150+ UAE traders</span>
+                        Rated <span className="text-white font-bold">4.7</span> / 5 by <span className="text-white underline">1,150+ traders</span>
                     </p>
                     <p className="text-gray-500 text-xs mt-2">
                         Quantum Algo has earned top marks for reliability, trust and performance.

@@ -8,7 +8,7 @@ import FundingProof from '@/components/FundingProof';
 import Testimonials from '@/components/Testimonials';
 import Features from '@/components/Features';
 import SuccessStories from '@/components/SuccessStories';
-import WhyUAE from '@/components/WhyUAE';
+
 import NotForEveryone from '@/components/NotForEveryone';
 import GetStarted from '@/components/GetStarted';
 import PropFunding from '@/components/PropFunding';
@@ -26,7 +26,7 @@ export default function Home() {
       <Testimonials openPopup={() => setOpen(true)} />
       <Features openPopup={() => setOpen(true)} />
       <SuccessStories />
-      <WhyUAE />
+
       <NotForEveryone openPopup={() => setOpen(true)} />
       <GetStarted openPopup={() => setOpen(true)} />
       <PropFunding openPopup={() => setOpen(true)} />

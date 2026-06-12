@@ -17,7 +17,7 @@ export default function SuccessStories() {
                             <strong><em>Real Payouts and Success Stories</em></strong>
                         </h2>
                         <p className="text-[#A60D60] font-bold text-lg md:text-xl">
-                            Direct From Our UAE Traders
+                            Direct From Our Traders
                         </p>
                         <p className="text-gray-600 font-semibold mt-4 max-w-2xl mx-auto">
                             See for yourself: Quantum Algo members routinely share withdrawal proofs, profit splits, and real-time funded account updates inside our secure investor chat.
@@ -112,7 +112,7 @@ export default function SuccessStories() {
                 <ScrollAnimate delay={500}>
                     <div className="text-center mb-12">
                         <p className="text-gray-800 font-semibold text-lg leading-relaxed max-w-2xl mx-auto">
-                            Swipe through dozens of verified payout, certificate, and account images from the UAE's top trading community.
+                            Swipe through dozens of verified payout, certificate, and account images from our top trading community.
                         </p>
                         <p className="text-[#A60D60] font-bold text-lg mt-4">
                             No more hypothetical claims, marketing hype, or cherry-picked results.

@@ -38,7 +38,7 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
                     {/* Pre-headline */}
                     <ScrollAnimate>
                         <p className="text-white font-bold text-xs sm:text-sm md:text-base mb-3 sm:mb-4">
-                            For UAE Traders Who Want Consistent, Stress-Free, AI-Driven Profits
+                            For Traders Who Want Consistent, Stress-Free, AI-Driven Profits
                         </p>
                     </ScrollAnimate>
 
@@ -55,7 +55,7 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
                 {/* Subheadline */}
                 <p className="text-white font-bold text-xs sm:text-sm md:text-base max-w-3xl mx-auto mb-6 sm:mb-8 px-2">
                     Stack the odds in your favor with Quantum Algo's automated momentum strategies, volatility detection, and AI-powered risk management.{' '}
-                    <span className="text-sky-400">Built for large UAE accounts and serious traders, not beginners.</span>
+                    <span className="text-sky-400">Built for large accounts and serious traders, not beginners.</span>
                 </p>
 
                 {/* Video Embed */}
@@ -87,7 +87,7 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
 
                 {/* Urgency Text */}
                 <p className="text-sky-400 font-bold text-xs sm:text-sm mb-4">
-                    HURRY! Only 4 onboarding slots left until December 2025.
+                    HURRY! Only 4 onboarding slots left until December 2026.
                 </p>
 
                 {/* Trustpilot Stars */}
@@ -109,7 +109,7 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
                             />
                         ))}
                     </div>
-                    <span className="text-white text-xs sm:text-sm">4.9/5 from 1,400+ UAE investors</span>
+                    <span className="text-white text-xs sm:text-sm">4.9/5 from verified investors</span>
                 </div>
 
                 {/* Application note */}

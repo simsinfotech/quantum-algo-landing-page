@@ -23,7 +23,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                             className="text-2xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
-                            <em>For Serious UAE Traders Only</em>
+                            <em>For Serious Traders Only</em>
                         </h2>
                     </div>
                 </ScrollAnimate>
@@ -77,7 +77,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">UAE residents looking for consistent income</span>
+                                    <span className="text-gray-700 font-semibold">Residents looking for consistent income</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
@@ -85,7 +85,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Indians in UAE who moved for legal forex access</span>
+                                    <span className="text-gray-700 font-semibold">Traders who want legal, regulated forex access</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
@@ -109,7 +109,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                             Apply If You're Serious
                         </button>
                         <p className="text-sky-400 font-bold text-sm mt-4">
-                            HURRY! Only 4 onboarding slots left until December 2025.
+                            HURRY! Only 4 onboarding slots left until December 2026.
                         </p>
                     </div>
                 </ScrollAnimate>

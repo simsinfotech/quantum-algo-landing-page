@@ -17,7 +17,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
                             className="text-2xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
-                            <strong><em>Why Quantum Algo's Multi-Strategy AI Is The Edge Serious UAE Traders Have Been Waiting For…</em></strong>
+                            <strong><em>Why Quantum Algo's Multi-Strategy AI Is The Edge Serious Traders Have Been Waiting For…</em></strong>
                         </h2>
                     </div>
                 </ScrollAnimate>
@@ -146,7 +146,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
                             Check If You Qualify - Apply Now
                         </button>
                         <p className="text-sky-400 font-bold text-sm mt-4">
-                            HURRY! Only 4 onboarding slots left until December 2025.
+                            HURRY! Only 4 onboarding slots left until December 2026.
                         </p>
                     </div>
                 </div>
