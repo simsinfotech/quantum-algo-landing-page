@@ -5,11 +5,11 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function Letter({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="bg-white py-16 md:py-20">
+        <section className="bg-[#0a0a0a] py-16 md:py-20">
             <div className="max-w-2xl mx-auto px-4 md:px-6">
                 {/* Section Title */}
                 <ScrollAnimate>
-                    <h2 className="text-xl md:text-2xl font-black text-gray-900 text-center mb-2">
+                    <h2 className="text-xl md:text-2xl font-black text-white text-center mb-2">
                         The Smarter Way Professionals Trade With AI
                     </h2>
                     <p className="text-[#A60D60] font-bold text-lg md:text-xl text-center mb-10">
@@ -18,7 +18,7 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
                 </ScrollAnimate>
 
                 {/* Letter Card */}
-                <div className="p-6 md:p-8 text-gray-800">
+                <div className="p-6 md:p-8 text-gray-300">
                     <p className="text-[#A60D60] font-bold mb-4 text-lg">Dear Trader,</p>
 
                     <p className="mb-4 leading-relaxed font-semibold">
@@ -49,11 +49,11 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
                         </p>
                     </div>
 
-                    <div className="bg-[#E8D4F0] p-4 rounded-lg mb-6">
-                        <p className="text-gray-900 font-bold leading-relaxed">
+                    <div className="bg-white/10 p-4 rounded-lg mb-6">
+                        <p className="text-white font-bold leading-relaxed">
                             Your job? Monitor performance, refine risk, schedule withdrawals.
                         </p>
-                        <p className="text-gray-900 font-semibold leading-relaxed mt-2">
+                        <p className="text-gray-300 font-semibold leading-relaxed mt-2">
                             Scale with professional-grade AI, not hype.
                         </p>
                     </div>
@@ -88,17 +88,17 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
 
                 {/* Chart Image with Verified Results Overlay */}
                 <div className="mt-10 relative mx-0 md:-mx-20 lg:-mx-32">
-                    <div className="overflow-hidden bg-white p-2">
+                    <div className="overflow-hidden bg-[#0a0a0a] p-2">
                         <img
                             src="/stock%20graph.png"
                             alt="Verified Trading Results"
-                            className="w-full h-auto border border-white"
+                            className="w-full h-auto border border-white/20 rounded-lg"
                         />
                     </div>
 
                     {/* Verified Results Overlay - Mobile: Static, Desktop: Absolute */}
                     <div className="relative md:absolute md:-bottom-20 md:left-1/2 md:-translate-x-1/2 w-full md:w-[90%] md:max-w-2xl mt-4 md:mt-0">
-                        <div className="bg-white rounded-xl shadow-xl p-4 md:p-6 flex flex-col sm:flex-row items-start gap-3 md:gap-4">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-xl shadow-xl p-4 md:p-6 flex flex-col sm:flex-row items-start gap-3 md:gap-4">
                             <div className="w-10 h-10 md:w-14 md:h-14 flex items-center justify-center flex-shrink-0">
                                 <img
                                     src="/bagde%20logo.svg"
@@ -108,7 +108,7 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
                             </div>
                             <div>
                                 <p className="text-[#A60D60] font-black text-xl sm:text-2xl md:text-3xl italic mb-2">^ Verified Results...</p>
-                                <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
+                                <p className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed">
                                     <span className="font-semibold">Still think it's BS? I even give out investor account access, just to silence the haters</span> <span className="font-bold">(you'll get this after you apply)</span>.
                                 </p>
                             </div>

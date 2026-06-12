@@ -5,10 +5,10 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function FundingProof({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="relative bg-[#f5f5f5] pt-16 md:pt-24 pb-24 md:pb-32 overflow-hidden">
+        <section className="relative bg-[#111111] pt-16 md:pt-24 pb-24 md:pb-32 overflow-hidden">
             {/* Curved background effect */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[200%] h-[600px] bg-[#eaeaea] rounded-[50%] -translate-y-1/2" />
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[200%] h-[600px] bg-[#0a0a0a] rounded-[50%] -translate-y-1/2" />
             </div>
 
             <div className="relative max-w-3xl mx-auto px-4 md:px-6">
@@ -24,7 +24,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                 <ScrollAnimate>
                     <div className="text-center mb-10">
                         <h2
-                            className="text-2xl md:text-3xl lg:text-4xl font-black text-gray-900 leading-tight"
+                            className="text-2xl md:text-3xl lg:text-4xl font-black text-white leading-tight"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
                             <strong><em>I've Helped Traders<br />
@@ -36,7 +36,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                 </ScrollAnimate>
 
                 {/* Content */}
-                <div className="max-w-2xl mx-auto mb-8 text-gray-700 font-semibold">
+                <div className="max-w-2xl mx-auto mb-8 text-gray-300 font-semibold">
                     <p className="mb-6 text-lg">
                         I've spent years building, breaking, refining, and rebuilding automated systems through every kind of market condition imaginable.
                     </p>
@@ -92,7 +92,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                     >
                         Apply Now
                     </button>
-                    <p className="text-sky-400 font-bold text-sm text-center mt-4 bg-[#f5f5f5] py-2">
+                    <p className="text-sky-400 font-bold text-sm text-center mt-4 bg-[#111111] py-2">
                         HURRY! Only 4 onboarding slots left until December 2026.
                     </p>
                 </div>

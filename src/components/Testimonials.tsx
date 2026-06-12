@@ -109,7 +109,7 @@ export default function Testimonials({ openPopup }: { openPopup: () => void }) {
     );
 
     return (
-        <section className="bg-[#2B2265] pt-20 md:pt-24 pb-16 md:pb-20">
+        <section className="bg-[#0a0a0a] pt-20 md:pt-24 pb-16 md:pb-20">
             <div className="w-full mx-auto px-4 md:px-8 lg:px-16">
                 {/* Section Header */}
                 <ScrollAnimate>
@@ -140,7 +140,7 @@ export default function Testimonials({ openPopup }: { openPopup: () => void }) {
                         {visibleTestimonials.map((testimonial, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-lg p-4 shadow-lg"
+                                className="bg-[#1a1a1a] border border-white/10 rounded-lg p-4 shadow-lg"
                             >
                                 {/* Stars */}
                                 <div className="flex items-center gap-2 mb-3">
@@ -162,17 +162,17 @@ export default function Testimonials({ openPopup }: { openPopup: () => void }) {
                                 </div>
 
                                 {/* Title */}
-                                <h3 className="font-bold text-gray-900 text-sm mb-2 line-clamp-1">
+                                <h3 className="font-bold text-white text-sm mb-2 line-clamp-1">
                                     {testimonial.title}
                                 </h3>
 
                                 {/* Content */}
-                                <p className="text-gray-600 text-xs leading-relaxed mb-3 line-clamp-4">
+                                <p className="text-gray-400 text-xs leading-relaxed mb-3 line-clamp-4">
                                     "{testimonial.content}"
                                 </p>
 
                                 {/* Author */}
-                                <p className="text-gray-900 text-xs">
+                                <p className="text-gray-300 text-xs">
                                     <span className="font-bold">— {testimonial.name}</span>, {testimonial.location}
                                 </p>
                             </div>

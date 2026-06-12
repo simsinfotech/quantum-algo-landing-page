@@ -4,14 +4,14 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function SuccessStories() {
     return (
-        <section className="bg-white pt-16 pb-0">
+        <section className="bg-[#0a0a0a] pt-16 pb-0">
 
             <div className="relative max-w-4xl mx-auto px-4 md:px-6">
                 {/* Title at top */}
                 <ScrollAnimate>
                     <div className="text-center mb-8 sm:mb-12">
                         <h2
-                            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight mb-4"
+                            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight mb-4"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
                             <strong><em>Real Payouts and Success Stories</em></strong>
@@ -19,7 +19,7 @@ export default function SuccessStories() {
                         <p className="text-[#A60D60] font-bold text-lg md:text-xl">
                             Direct From Our Traders
                         </p>
-                        <p className="text-gray-600 font-semibold mt-4 max-w-2xl mx-auto">
+                        <p className="text-gray-400 font-semibold mt-4 max-w-2xl mx-auto">
                             See for yourself: Quantum Algo members routinely share withdrawal proofs, profit splits, and real-time funded account updates inside our secure investor chat.
                         </p>
                     </div>
@@ -29,7 +29,7 @@ export default function SuccessStories() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 items-stretch">
                     {/* Bryce A Story */}
                     <ScrollAnimate delay={100} className="h-full">
-                        <div className="bg-gray-50 rounded-2xl p-6 shadow-lg h-full flex flex-col">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-6 shadow-lg h-full flex flex-col">
                             <div className="flex items-start gap-4 mb-4">
                                 <img
                                     src="/avatar2.jpeg"
@@ -37,11 +37,11 @@ export default function SuccessStories() {
                                     className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                                 />
                                 <div>
-                                    <h3 className="font-bold text-gray-900">Bryce A.</h3>
-                                    <p className="text-sm text-gray-500">Verified Trader</p>
+                                    <h3 className="font-bold text-white">Bryce A.</h3>
+                                    <p className="text-sm text-gray-400">Verified Trader</p>
                                 </div>
                             </div>
-                            <p className="text-gray-800 font-semibold leading-relaxed">
+                            <p className="text-gray-300 font-semibold leading-relaxed">
                                 "Good end to the week—Profit Split received! <span className="text-[#A60D60] font-bold">$1,574.03</span> auto-traded by Quantum Algo."
                             </p>
                         </div>
@@ -49,7 +49,7 @@ export default function SuccessStories() {
 
                     {/* Daniel S Story */}
                     <ScrollAnimate delay={200} className="h-full">
-                        <div className="bg-gray-50 rounded-2xl p-6 shadow-lg h-full flex flex-col">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-6 shadow-lg h-full flex flex-col">
                             <div className="flex items-start gap-4 mb-4">
                                 <img
                                     src="/avatar3.jpeg"
@@ -57,11 +57,11 @@ export default function SuccessStories() {
                                     className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                                 />
                                 <div>
-                                    <h3 className="font-bold text-gray-900">Daniel S.</h3>
-                                    <p className="text-sm text-gray-500">Verified Trader</p>
+                                    <h3 className="font-bold text-white">Daniel S.</h3>
+                                    <p className="text-sm text-gray-400">Verified Trader</p>
                                 </div>
                             </div>
-                            <p className="text-gray-800 font-semibold leading-relaxed">
+                            <p className="text-gray-300 font-semibold leading-relaxed">
                                 "Passed the funding challenge using the EA. <span className="text-[#A60D60] font-bold">$364.36</span> profit this round—on to the next."
                             </p>
                         </div>
@@ -69,7 +69,7 @@ export default function SuccessStories() {
 
                     {/* Matthew F Story */}
                     <ScrollAnimate delay={300} className="h-full">
-                        <div className="bg-gray-50 rounded-2xl p-6 shadow-lg h-full flex flex-col">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-6 shadow-lg h-full flex flex-col">
                             <div className="flex items-start gap-4 mb-4">
                                 <img
                                     src="/avatar4.jpeg"
@@ -77,11 +77,11 @@ export default function SuccessStories() {
                                     className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                                 />
                                 <div>
-                                    <h3 className="font-bold text-gray-900">Matthew F.</h3>
-                                    <p className="text-sm text-gray-500">Verified Trader</p>
+                                    <h3 className="font-bold text-white">Matthew F.</h3>
+                                    <p className="text-sm text-gray-400">Verified Trader</p>
                                 </div>
                             </div>
-                            <p className="text-gray-800 font-semibold leading-relaxed">
+                            <p className="text-gray-300 font-semibold leading-relaxed">
                                 "$50K secured away with Quantum Algo AI. <span className="text-[#A60D60] font-bold">$50,800.00</span> now sitting funded."
                             </p>
                         </div>
@@ -89,7 +89,7 @@ export default function SuccessStories() {
 
                     {/* Imran S Story */}
                     <ScrollAnimate delay={400} className="h-full">
-                        <div className="bg-gray-50 rounded-2xl p-6 shadow-lg h-full flex flex-col">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-6 shadow-lg h-full flex flex-col">
                             <div className="flex items-start gap-4 mb-4">
                                 <img
                                     src="/avatar5.jpeg"
@@ -97,11 +97,11 @@ export default function SuccessStories() {
                                     className="w-12 h-12 rounded-full object-cover flex-shrink-0"
                                 />
                                 <div>
-                                    <h3 className="font-bold text-gray-900">Imran S.</h3>
-                                    <p className="text-sm text-gray-500">Verified Trader</p>
+                                    <h3 className="font-bold text-white">Imran S.</h3>
+                                    <p className="text-sm text-gray-400">Verified Trader</p>
                                 </div>
                             </div>
-                            <p className="text-gray-800 font-semibold leading-relaxed">
+                            <p className="text-gray-300 font-semibold leading-relaxed">
                                 "Quarterly profit split, hands-free withdrawals and verified payments, every time."
                             </p>
                         </div>
@@ -117,7 +117,7 @@ export default function SuccessStories() {
                         <p className="text-[#A60D60] font-bold text-lg mt-4">
                             No more hypothetical claims, marketing hype, or cherry-picked results.
                         </p>
-                        <p className="text-gray-900 font-black text-xl mt-2">
+                        <p className="text-white font-black text-xl mt-2">
                             Just real traders, real profits, real certificates.
                         </p>
                     </div>

@@ -4,7 +4,7 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function NotForEveryone({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="bg-white pt-12 md:pt-16 pb-16 md:pb-24">
+        <section className="bg-[#0a0a0a] pt-12 md:pt-16 pb-16 md:pb-24">
             <div className="max-w-[90rem] mx-auto px-4 md:px-6">
                 {/* Partner Logos */}
                 <ScrollAnimate>
@@ -20,7 +20,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                 <ScrollAnimate>
                     <div className="text-center mb-12">
                         <h2
-                            className="text-2xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight"
+                            className="text-2xl md:text-4xl lg:text-5xl font-black text-white leading-tight"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
                             <em>For Serious Traders Only</em>
@@ -31,30 +31,30 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* NOT For */}
                     <ScrollAnimate delay={100}>
-                        <div className="bg-gray-100 rounded-2xl p-8">
-                            <h3 className="text-xl font-black text-gray-900 mb-6">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-8">
+                            <h3 className="text-xl font-black text-white mb-6">
                                 Quantum Algo is <span className="text-red-600">NOT</span> for:
                             </h3>
                             <ul className="space-y-4">
                                 <li className="flex items-start gap-3">
                                     <span className="text-red-600 font-bold text-xl">✗</span>
-                                    <span className="text-gray-700 font-semibold">Beginners</span>
+                                    <span className="text-gray-300 font-semibold">Beginners</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-red-600 font-bold text-xl">✗</span>
-                                    <span className="text-gray-700 font-semibold">People expecting overnight riches</span>
+                                    <span className="text-gray-300 font-semibold">People expecting overnight riches</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-red-600 font-bold text-xl">✗</span>
-                                    <span className="text-gray-700 font-semibold">Zero-risk seekers</span>
+                                    <span className="text-gray-300 font-semibold">Zero-risk seekers</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-red-600 font-bold text-xl">✗</span>
-                                    <span className="text-gray-700 font-semibold">Anyone who refuses to follow risk parameters</span>
+                                    <span className="text-gray-300 font-semibold">Anyone who refuses to follow risk parameters</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-red-600 font-bold text-xl">✗</span>
-                                    <span className="text-gray-700 font-semibold">Traders who manually override strategy rules</span>
+                                    <span className="text-gray-300 font-semibold">Traders who manually override strategy rules</span>
                                 </li>
                             </ul>
                         </div>
@@ -62,34 +62,34 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
 
                     {/* IS For */}
                     <ScrollAnimate delay={200}>
-                        <div className="bg-[#E8D4F0] rounded-2xl p-8">
-                            <h3 className="text-xl font-black text-gray-900 mb-6">
+                        <div className="bg-[#B4348C]/10 border border-[#B4348C]/30 rounded-2xl p-8">
+                            <h3 className="text-xl font-black text-white mb-6">
                                 Quantum Algo <span className="text-[#A60D60]">IS</span> built for:
                             </h3>
                             <ul className="space-y-4">
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Experienced traders</span>
+                                    <span className="text-gray-300 font-semibold">Experienced traders</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Traders with 5-figure or 6-figure accounts</span>
+                                    <span className="text-gray-300 font-semibold">Traders with 5-figure or 6-figure accounts</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Residents looking for consistent income</span>
+                                    <span className="text-gray-300 font-semibold">Residents looking for consistent income</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Professionals wanting to scale</span>
+                                    <span className="text-gray-300 font-semibold">Professionals wanting to scale</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Traders who want legal, regulated forex access</span>
+                                    <span className="text-gray-300 font-semibold">Traders who want legal, regulated forex access</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="text-[#A60D60] font-bold text-xl">✓</span>
-                                    <span className="text-gray-700 font-semibold">Traders who value automation + transparency</span>
+                                    <span className="text-gray-300 font-semibold">Traders who value automation + transparency</span>
                                 </li>
                             </ul>
                         </div>
@@ -99,7 +99,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                 {/* Bottom CTA */}
                 <ScrollAnimate delay={300}>
                     <div className="text-center mt-12">
-                        <p className="text-gray-900 font-bold text-xl mb-6">
+                        <p className="text-white font-bold text-xl mb-6">
                             This is a premium, high-performance system — not a toy.
                         </p>
                         <button

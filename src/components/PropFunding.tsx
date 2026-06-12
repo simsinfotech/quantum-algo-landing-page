@@ -83,7 +83,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
     return (
         <section>
             {/* Stop Trading Like a Hobbyist Section */}
-            <div className="bg-[#2B2265] py-16 md:py-24">
+            <div className="bg-[#0a0a0a] py-16 md:py-24">
                 <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
                     <ScrollAnimate>
                         <h2
@@ -113,7 +113,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                             Even when you nail the right trade, a tiny account keeps you stuck, frustrated, and going in circles.
                         </p>
 
-                        <div className="bg-[#3A2B82] rounded-lg py-4 px-6 my-8">
+                        <div className="bg-white/5 border border-white/10 rounded-lg py-4 px-6 my-8">
                             <p className="text-white font-bold text-lg md:text-xl leading-relaxed">
                                 Quantum Algo fixes that.
                             </p>
@@ -173,12 +173,12 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             </div>
 
             {/* Guaranteed $100K Section */}
-            <div className="bg-white py-16 md:py-24">
+            <div className="bg-[#111111] py-16 md:py-24">
                 <div className="max-w-4xl mx-auto px-4 md:px-6">
                     <ScrollAnimate>
                         <div className="text-center mb-10">
                             <h2
-                                className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 leading-tight mb-4"
+                                className="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight mb-4"
                                 style={{ fontFamily: '"Clash Display", sans-serif', fontWeight: 900 }}
                             >
                                 Clear your <span className="text-[#A60D60]">$100K Funded Account</span>
@@ -187,28 +187,28 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                     </ScrollAnimate>
 
                     <div className="space-y-6 max-w-3xl mx-auto">
-                        <p className="text-gray-800 font-semibold text-lg leading-relaxed">
+                        <p className="text-gray-300 font-semibold text-lg leading-relaxed">
                             I will help to give you your time back and let you compound serious wealth compared to exhausting manual charting and emotional day trading.
                         </p>
 
-                        <p className="text-gray-800 font-semibold text-lg leading-relaxed">
+                        <p className="text-gray-300 font-semibold text-lg leading-relaxed">
                             With Quantum Algo's AI strategies, you're on your way to get funded.
                         </p>
 
-                        <p className="text-gray-800 font-semibold text-lg leading-relaxed">
+                        <p className="text-gray-300 font-semibold text-lg leading-relaxed">
                             Start running our automated algo on your live account and see steady withdrawals month after month.
                         </p>
 
-                        <p className="text-gray-800 font-semibold text-lg leading-relaxed">
-                            Just <span className="bg-[#E8D4F0] px-1 font-bold">2-3 hours a week</span> is enough. That's hundreds of hours saved per year, invest your time smarter, not harder.
+                        <p className="text-gray-300 font-semibold text-lg leading-relaxed">
+                            Just <span className="bg-[#B4348C]/20 px-1 font-bold">2-3 hours a week</span> is enough. That's hundreds of hours saved per year, invest your time smarter, not harder.
                         </p>
 
-                        <p className="text-gray-800 font-semibold text-lg leading-relaxed">
+                        <p className="text-gray-300 font-semibold text-lg leading-relaxed">
                             I'll set up all the tools, dashboards, and coaching you need to succeed, just like our most profitable members.
                         </p>
 
-                        <div className="bg-[#E8D4F0] p-6 rounded-lg mt-8">
-                            <p className="text-gray-900 text-lg leading-relaxed font-bold">
+                        <div className="bg-[#B4348C]/10 border border-[#B4348C]/30 p-6 rounded-lg mt-8">
+                            <p className="text-white text-lg leading-relaxed font-bold">
                                 I will help you with your $100K funded account within 30 days of approval and start making real withdrawals using professional AI strategies built for sophisticated traders, not one-size-fits-all bots.
                             </p>
                         </div>
@@ -227,7 +227,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             </div>
 
             {/* Testimonial Video Section */}
-            <div className="bg-gray-50 py-12 sm:py-16 md:py-24">
+            <div className="bg-[#0a0a0a] py-12 sm:py-16 md:py-24">
                 <div className="max-w-6xl mx-auto px-4 md:px-6">
                     {/* Magenta Arrow Indicator */}
                     <div className="flex justify-center mb-4 sm:mb-6">
@@ -239,14 +239,14 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
 
                     {/* Section Title */}
                     <ScrollAnimate>
-                        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 text-center mb-8 sm:mb-12 leading-tight px-4">
+                        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white text-center mb-8 sm:mb-12 leading-tight px-4">
                             Join Traders Achieving Consistent 4, 5, Even 6-Figure Months With Quantum Algo…
                         </h2>
                     </ScrollAnimate>
 
                     {/* Testimonial Card - Centered */}
                     <div className="max-w-2xl mx-auto text-center">
-                        <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 mb-3 sm:mb-4">
+                        <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-3 sm:mb-4">
                             {testimonials[activeTestimonial].title}
                         </h3>
 
@@ -260,11 +260,11 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                         </div>
 
                         {/* Testimonial Text Box */}
-                        <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm space-y-3 sm:space-y-4">
-                            <p className="text-gray-800 text-base sm:text-lg leading-relaxed">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm space-y-3 sm:space-y-4">
+                            <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
                                 "{testimonials[activeTestimonial].text1}"
                             </p>
-                            <p className="text-gray-800 text-base sm:text-lg leading-relaxed">
+                            <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
                                 "{testimonials[activeTestimonial].text2}"
                             </p>
                         </div>
@@ -302,7 +302,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             </div>
 
             {/* Footer */}
-            <div className="bg-white py-8 sm:py-12 border-t border-gray-200">
+            <div className="bg-[#0a0a0a] py-8 sm:py-12 border-t border-white/10">
                 <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
                     {/* QA Logo */}
                     <div className="mb-4 sm:mb-6 flex justify-center">
@@ -314,9 +314,9 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                     </div>
 
                     {/* Copyright Text */}
-                    <p className="text-gray-700 text-sm sm:text-base md:text-lg font-semibold">
+                    <p className="text-gray-400 text-sm sm:text-base md:text-lg font-semibold">
                         Copyright © [2025]. All Rights Reserved. |{' '}
-                        <a href="#terms" className="text-blue-600 hover:text-blue-800 underline">
+                        <a href="#terms" className="text-[#B4348C] hover:text-[#B4348C]/80 underline">
                             Terms & Conditions
                         </a>
                     </p>

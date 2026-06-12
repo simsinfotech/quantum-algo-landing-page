@@ -18,7 +18,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
 
   return (
-    <main className="min-h-screen bg-[#2B2265]">
+    <main className="min-h-screen bg-[#0a0a0a]">
       <Hero openPopup={() => setOpen(true)} />
       <AsSeenIn/>
       <Letter openPopup={() => setOpen(true)} />
