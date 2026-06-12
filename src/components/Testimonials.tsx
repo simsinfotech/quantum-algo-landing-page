@@ -109,7 +109,7 @@ export default function Testimonials({ openPopup }: { openPopup: () => void }) {
     );
 
     return (
-        <section className="pt-20 md:pt-24 pb-16 md:pb-20" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #B4348C 50%, #0a0a0a 50%, #0a0a0a 100%)' }}>
+        <section className="pt-20 md:pt-24 pb-16 md:pb-20" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 100%)' }}>
             <div className="w-full mx-auto px-4 md:px-8 lg:px-16">
                 {/* Section Header */}
                 <ScrollAnimate>

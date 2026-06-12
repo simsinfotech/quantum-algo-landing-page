@@ -5,7 +5,7 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function Letter({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="py-16 md:py-20" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #B4348C 50%, #0a0a0a 50%, #0a0a0a 100%)' }}>
+        <section className="py-16 md:py-20" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 100%)' }}>
             <div className="max-w-2xl mx-auto px-4 md:px-6">
                 {/* Section Title */}
                 <ScrollAnimate>
