@@ -189,19 +189,20 @@
 
 .popup-close {
   position: absolute;
-  top: 70px;
-  right: 10px;
+  top: 12px;
+  right: 12px;
   font-size: 20px;
-  background: #000;   /* red background */
-  color: #fff;           /* white X icon */
-  border-radius: 50%;    /* round shape */
-  width: 32px;           /* fixed size */
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  width: 32px;
   height: 32px;
-  display: flex;         /* center the X inside */
+  display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   border: none;
+  z-index: 10;
 }
 .popup-close:hover {
   background: #b3001b;   /* darker red on hover */
