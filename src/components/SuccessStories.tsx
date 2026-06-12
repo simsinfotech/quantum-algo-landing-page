@@ -111,7 +111,7 @@ export default function SuccessStories() {
                 {/* Bottom Text */}
                 <ScrollAnimate delay={500}>
                     <div className="text-center mb-12">
-                        <p className="text-gray-800 font-semibold text-lg leading-relaxed max-w-2xl mx-auto">
+                        <p className="text-gray-300 font-semibold text-lg leading-relaxed max-w-2xl mx-auto">
                             Swipe through dozens of verified payout, certificate, and account images from our top trading community.
                         </p>
                         <p className="text-[#A60D60] font-bold text-lg mt-4">
