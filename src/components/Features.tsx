@@ -26,7 +26,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
                 <div className="text-left">
                     {/* Most EAs Have One Problem */}
                     <div className="mb-8">
-                        <h3 className="inline bg-[#B4348C]/20 px-1 font-bold text-white text-xl">
+                        <h3 className="inline bg-[#B4348C]/40 px-1 font-bold text-white text-xl">
                             Most EAs Have One Problem:
                         </h3>
                         <p className="text-gray-300 font-semibold text-xl leading-relaxed mt-2">
@@ -52,7 +52,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
 
                     {/* It Evolves As Markets Change */}
                     <div className="mb-8">
-                        <h3 className="inline bg-[#B4348C]/20 px-1 font-bold text-white text-xl">
+                        <h3 className="inline bg-[#B4348C]/40 px-1 font-bold text-white text-xl">
                             It Evolves As Markets Change.
                         </h3>
                         <p className="text-gray-300 font-semibold mt-2 leading-relaxed text-xl">
@@ -62,7 +62,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
 
                     {/* Built From Real Trading Work */}
                     <div className="mb-8">
-                        <h3 className="inline bg-[#B4348C]/20 px-1 font-bold text-white text-xl">
+                        <h3 className="inline bg-[#B4348C]/40 px-1 font-bold text-white text-xl">
                             Built From Real Trading Work, Not Theories.
                         </h3>
                         <p className="text-gray-300 font-semibold mt-2 leading-relaxed text-xl">
@@ -91,7 +91,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
 
                     {/* Designed For Traders Aiming To Scale */}
                     <div className="mb-8">
-                        <h3 className="inline bg-[#B4348C]/20 px-1 font-bold text-white text-xl">
+                        <h3 className="inline bg-[#B4348C]/40 px-1 font-bold text-white text-xl">
                             Designed For Traders Aiming To Scale Capital.
                         </h3>
                         <p className="text-gray-300 font-semibold mt-2 leading-relaxed text-xl">
@@ -114,7 +114,7 @@ export default function Features({ openPopup }: { openPopup: () => void }) {
 
                     {/* Your Setup Is Built Around You */}
                     <div className="mb-8">
-                        <h3 className="inline bg-[#B4348C]/20 px-1 font-bold text-white text-xl">
+                        <h3 className="inline bg-[#B4348C]/40 px-1 font-bold text-white text-xl">
                             And Your Setup Is Built Around You.
                         </h3>
                         <div className="text-gray-300 font-semibold mt-2 leading-relaxed text-xl">

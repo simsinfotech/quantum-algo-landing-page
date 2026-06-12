@@ -67,11 +67,11 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                     <ul className="mb-6 text-lg space-y-2">
                         <li className="flex items-start gap-2">
                             <span className="text-[#A60D60] font-bold">•</span>
-                            <span><span className="bg-[#E8D4F0] px-1 font-bold">Manage tens of millions</span> across live and funded accounts</span>
+                            <span><span className="bg-[#B4348C]/40 px-1 font-bold text-white">Manage tens of millions</span> across live and funded accounts</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <span className="text-[#A60D60] font-bold">•</span>
-                            <span>Build <span className="bg-[#E8D4F0] px-1 font-bold">six-figure withdrawals</span> over time</span>
+                            <span>Build <span className="bg-[#B4348C]/40 px-1 font-bold text-white">six-figure withdrawals</span> over time</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <span className="text-[#A60D60] font-bold">•</span>

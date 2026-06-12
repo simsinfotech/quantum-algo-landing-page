@@ -200,7 +200,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                         </p>
 
                         <p className="text-gray-300 font-semibold text-lg leading-relaxed">
-                            Just <span className="bg-[#B4348C]/20 px-1 font-bold">2-3 hours a week</span> is enough. That's hundreds of hours saved per year, invest your time smarter, not harder.
+                            Just <span className="bg-[#B4348C]/40 px-1 font-bold text-white">2-3 hours a week</span> is enough. That's hundreds of hours saved per year, invest your time smarter, not harder.
                         </p>
 
                         <p className="text-gray-300 font-semibold text-lg leading-relaxed">
