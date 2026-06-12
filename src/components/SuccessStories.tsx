@@ -125,7 +125,7 @@ export default function SuccessStories() {
             </div>
 
             {/* Marquee Section */}
-            <div className="bg-[#A60D60] border-y-4 border-[#A60D60] py-3 sm:py-4 overflow-hidden">
+            <div className="bg-[#B4348C] border-y-4 border-[#B4348C] py-3 sm:py-4 overflow-hidden">
                 <div className="flex animate-marquee whitespace-nowrap">
                     {[...Array(4)].map((_, i) => (
                         <div key={i} className="flex items-center shrink-0">
