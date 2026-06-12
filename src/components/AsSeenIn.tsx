@@ -49,13 +49,6 @@ export default function AsSeenIn() {
                 {/* Horizontal Divider */}
                 <div className="mt-8 mb-6 border-t border-white/20"></div>
 
-                {/* Magenta Arrow Indicator */}
-                <div className="flex justify-center -mb-8">
-                    <div className="flex items-center gap-1">
-                        <div className="w-12 h-0.5 bg-[#A60D60]" />
-                        <div className="w-0 h-0 border-t-[4px] border-t-transparent border-b-[4px] border-b-transparent border-l-[8px] border-l-[#A60D60]" />
-                    </div>
-                </div>
             </div>
         </section>
     );
