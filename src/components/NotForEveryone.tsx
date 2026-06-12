@@ -12,7 +12,7 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                         Quantum Algo is built exactly for this market.
                     </p>
                     <div className="flex flex-wrap justify-center items-center gap-6 mb-12">
-                        <div className="w-full max-w-[85rem] rounded-2xl p-6 md:p-10" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 50%, #B4348C 100%)' }}>
+                        <div className="w-full max-w-[85rem] rounded-2xl p-6 md:p-10" style={{ background: '#B4348C' }}>
                             <img src="/FAV!100%25%20Profits.png" alt="Prop Firm Partners" className="w-full h-auto" />
                         </div>
                     </div>
