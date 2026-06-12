@@ -6,10 +6,10 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function Hero({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="relative bg-[#250E50] pt-4 sm:pt-6 pb-8 sm:pb-12 overflow-hidden">
+        <section className="relative bg-[#0a0a0a] pt-4 sm:pt-6 pb-8 sm:pb-12 overflow-hidden">
             {/* Background gradient effects */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] sm:w-[1000px] h-[400px] sm:h-[600px] bg-[#A60D60]/5 rounded-full blur-[100px] sm:blur-[150px]" />
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] sm:w-[1000px] h-[400px] sm:h-[600px] bg-[#A60D60]/10 rounded-full blur-[100px] sm:blur-[150px]" />
             </div>
 
             <div className="relative max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
@@ -105,7 +105,7 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
                                 key={i}
                                 src={`/avatar${i}.jpeg`}
                                 alt={`Investor ${i}`}
-                                className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 rounded-full border-2 border-[#2B2265] object-cover"
+                                className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 rounded-full border-2 border-[#0a0a0a] object-cover"
                             />
                         ))}
                     </div>
