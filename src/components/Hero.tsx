@@ -117,13 +117,11 @@ export default function Hero({ openPopup }: { openPopup: () => void }) {
                     It's a fast setup. Approved users get instant access to the full algorithm, expert support, and their own automated trading dashboard.
                 </p>
 
-                {/* Trust Badge */}
-                <div className="flex justify-center px-2">
-                    <img
-                        src="/L100%25%20Profits.png"
-                        alt="100% of Profits No Profit Share"
-                        className="w-full max-w-4xl h-auto"
-                    />
+                {/* Trust Badges */}
+                <div className="flex justify-center items-center gap-6 sm:gap-10 px-2 mt-4">
+                    <img src="/54funded%20logo.svg" alt="$54M Funded" className="h-16 sm:h-20 md:h-24 w-auto" />
+                    <img src="/gauranteed.svg" alt="Guaranteed" className="h-16 sm:h-20 md:h-24 w-auto" />
+                    <img src="/low%20risk.svg" alt="Low Risk" className="h-16 sm:h-20 md:h-24 w-auto" />
                 </div>
                 </div>
             </div>
