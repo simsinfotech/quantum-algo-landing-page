@@ -2,7 +2,7 @@
 
 export default function AsSeenIn() {
     return (
-        <section className="pt-8 md:pt-10 pb-0" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #1a0a14 30%, #B4348C 100%)' }}>
+        <section className="pt-8 md:pt-10 pb-0" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 50%, #B4348C 50%, #B4348C 100%)' }}>
             <div className="max-w-7xl mx-auto px-4 md:px-6">
                 {/* Mobile: Stack vertically, Desktop: Horizontal */}
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-12 lg:gap-20">

@@ -6,7 +6,7 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function Hero({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="relative pt-4 sm:pt-6 pb-8 sm:pb-12 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #1a0a14 30%, #B4348C 100%)' }}>
+        <section className="relative pt-4 sm:pt-6 pb-8 sm:pb-12 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 50%, #B4348C 50%, #B4348C 100%)' }}>
             {/* Background gradient effects */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] sm:w-[1000px] h-[400px] sm:h-[600px] bg-[#A60D60]/10 rounded-full blur-[100px] sm:blur-[150px]" />
