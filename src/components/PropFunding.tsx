@@ -308,7 +308,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
 
                     {/* Copyright Text */}
                     <p className="text-gray-400 text-sm sm:text-base md:text-lg font-semibold">
-                        Copyright © [2025]. All Rights Reserved. |{' '}
+                        Copyright © [2026]. All Rights Reserved. |{' '}
                         <a href="#terms" className="text-[#B4348C] hover:text-[#B4348C]/80 underline">
                             Terms & Conditions
                         </a>
