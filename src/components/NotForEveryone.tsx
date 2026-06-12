@@ -30,10 +30,10 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                     </div>
                 </ScrollAnimate>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
                     {/* NOT For */}
-                    <ScrollAnimate delay={100}>
-                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-8">
+                    <ScrollAnimate delay={100} className="h-full">
+                        <div className="bg-[#1a1a1a] border border-white/10 rounded-2xl p-8 h-full">
                             <h3 className="text-xl font-black text-white mb-6">
                                 Quantum Algo is <span className="text-red-600">NOT</span> for:
                             </h3>
@@ -63,8 +63,8 @@ export default function NotForEveryone({ openPopup }: { openPopup: () => void })
                     </ScrollAnimate>
 
                     {/* IS For */}
-                    <ScrollAnimate delay={200}>
-                        <div className="bg-[#B4348C]/10 border border-[#B4348C]/30 rounded-2xl p-8">
+                    <ScrollAnimate delay={200} className="h-full">
+                        <div className="bg-[#B4348C]/10 border border-[#B4348C]/30 rounded-2xl p-8 h-full">
                             <h3 className="text-xl font-black text-white mb-6">
                                 Quantum Algo <span className="text-[#A60D60]">IS</span> built for:
                             </h3>
