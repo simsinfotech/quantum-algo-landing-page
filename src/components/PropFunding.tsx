@@ -229,14 +229,6 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             {/* Testimonial Video Section */}
             <div className="py-12 sm:py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 40%, #B4348C 100%)' }}>
                 <div className="max-w-6xl mx-auto px-4 md:px-6">
-                    {/* Magenta Arrow Indicator */}
-                    <div className="flex justify-center mb-4 sm:mb-6">
-                        <div className="flex items-center gap-1">
-                            <div className="w-8 sm:w-12 h-0.5 bg-[#A60D60]" />
-                            <div className="w-2 h-2 rounded-full bg-[#A60D60]" />
-                        </div>
-                    </div>
-
                     {/* Section Title */}
                     <ScrollAnimate>
                         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white text-center mb-8 sm:mb-12 leading-tight px-4">

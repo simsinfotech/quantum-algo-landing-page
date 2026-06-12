@@ -18,7 +18,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
 
   return (
-    <main className="min-h-screen bg-[#0a0a0a]">
+    <main className="min-h-screen bg-[#0a0a0a] [&>section]:mt-[-1px] [&>*]:border-0">
       <Hero openPopup={() => setOpen(true)} />
       <AsSeenIn/>
       <Letter openPopup={() => setOpen(true)} />
@@ -26,7 +26,6 @@ export default function Home() {
       <Testimonials openPopup={() => setOpen(true)} />
       <Features openPopup={() => setOpen(true)} />
       <SuccessStories />
-
       <NotForEveryone openPopup={() => setOpen(true)} />
       <GetStarted openPopup={() => setOpen(true)} />
       <PropFunding openPopup={() => setOpen(true)} />
