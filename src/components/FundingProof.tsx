@@ -5,10 +5,10 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function FundingProof({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="relative pt-16 md:pt-24 pb-24 md:pb-32 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #B4348C 100%)' }}>
+        <section className="relative pt-16 md:pt-24 pb-24 md:pb-32 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 40%, #B4348C 100%)' }}>
             {/* Curved background effect */}
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[200%] h-[600px] rounded-[50%] -translate-y-1/2" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 100%)' }} />
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[200%] h-[600px] rounded-[50%] -translate-y-1/2" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 60%, #0a0a0a 100%)' }} />
             </div>
 
             <div className="relative max-w-3xl mx-auto px-4 md:px-6">

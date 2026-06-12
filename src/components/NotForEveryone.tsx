@@ -4,7 +4,7 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function NotForEveryone({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="pt-12 md:pt-16 pb-16 md:pb-24" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #B4348C 100%)' }}>
+        <section className="pt-12 md:pt-16 pb-16 md:pb-24" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 40%, #B4348C 100%)' }}>
             <div className="max-w-[90rem] mx-auto px-4 md:px-6">
                 {/* Partner Logos */}
                 <ScrollAnimate>
