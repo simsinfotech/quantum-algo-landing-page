@@ -83,7 +83,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
     return (
         <section>
             {/* Stop Trading Like a Hobbyist Section */}
-            <div className="bg-[#0a0a0a] py-16 md:py-24">
+            <div className="py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #1a0a14 30%, #B4348C 100%)' }}>
                 <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
                     <ScrollAnimate>
                         <h2
@@ -173,7 +173,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             </div>
 
             {/* Guaranteed $100K Section */}
-            <div className="bg-[#111111] py-16 md:py-24">
+            <div className="py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #1a0a14 30%, #0a0a0a 100%)' }}>
                 <div className="max-w-4xl mx-auto px-4 md:px-6">
                     <ScrollAnimate>
                         <div className="text-center mb-10">
@@ -227,7 +227,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             </div>
 
             {/* Testimonial Video Section */}
-            <div className="bg-[#0a0a0a] py-12 sm:py-16 md:py-24">
+            <div className="py-12 sm:py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #1a0a14 30%, #B4348C 100%)' }}>
                 <div className="max-w-6xl mx-auto px-4 md:px-6">
                     {/* Magenta Arrow Indicator */}
                     <div className="flex justify-center mb-4 sm:mb-6">
@@ -302,7 +302,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
             </div>
 
             {/* Footer */}
-            <div className="bg-[#0a0a0a] py-8 sm:py-12 border-t border-white/10">
+            <div className="py-8 sm:py-12 border-t border-white/10" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #1a0a14 50%, #0a0a0a 100%)' }}>
                 <div className="max-w-6xl mx-auto px-4 md:px-6 text-center">
                     {/* QA Logo */}
                     <div className="mb-4 sm:mb-6 flex justify-center">

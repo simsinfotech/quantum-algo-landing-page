@@ -4,7 +4,7 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function SuccessStories() {
     return (
-        <section className="bg-[#0a0a0a] pt-16 pb-0">
+        <section className="pt-16 pb-0" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #1a0a14 30%, #0a0a0a 100%)' }}>
 
             <div className="relative max-w-4xl mx-auto px-4 md:px-6">
                 {/* Title at top */}

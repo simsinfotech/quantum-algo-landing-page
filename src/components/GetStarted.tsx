@@ -4,7 +4,7 @@ import ScrollAnimate from './ScrollAnimate';
 
 export default function GetStarted({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="bg-[#111111] py-16 md:py-24">
+        <section className="py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #1a0a14 30%, #0a0a0a 100%)' }}>
             <div className="max-w-4xl mx-auto px-4 md:px-6">
                 {/* Section Header */}
                 <ScrollAnimate>
