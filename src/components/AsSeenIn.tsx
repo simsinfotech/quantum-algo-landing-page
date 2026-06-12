@@ -15,28 +15,28 @@ export default function AsSeenIn() {
                         <img
                             src="/digital-journal.png"
                             alt="Digital Journal"
-                            className="h-6 sm:h-8 md:h-10 w-auto brightness-0 invert hover:invert transition-all"
+                            className="h-6 sm:h-8 md:h-10 w-auto invert brightness-200 opacity-80 hover:opacity-100 transition-all"
                         />
 
                         {/* MarketWatch */}
                         <img
                             src="/marketwatch.png"
                             alt="MarketWatch"
-                            className="h-5 sm:h-6 md:h-7 w-auto brightness-0 invert hover:invert transition-all"
+                            className="h-5 sm:h-6 md:h-7 w-auto invert brightness-200 opacity-80 hover:opacity-100 transition-all"
                         />
 
                         {/* FOX 28 */}
                         <img
                             src="/fox28.png"
                             alt="FOX 28"
-                            className="h-5 sm:h-6 md:h-7 w-auto brightness-0 invert hover:invert transition-all"
+                            className="h-5 sm:h-6 md:h-7 w-auto invert brightness-200 opacity-80 hover:opacity-100 transition-all"
                         />
 
                         {/* FOX 43 */}
                         <img
                             src="/fox43.png"
                             alt="FOX 43"
-                            className="h-5 sm:h-6 md:h-7 w-auto brightness-0 invert hover:invert transition-all"
+                            className="h-5 sm:h-6 md:h-7 w-auto invert brightness-200 opacity-80 hover:opacity-100 transition-all"
                         />
 
                         {/* BENZINGA */}
