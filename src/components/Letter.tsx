@@ -13,7 +13,7 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
                         The Smarter Way Professionals Trade With AI
                     </h2>
                     <p className="text-[#A60D60] font-bold text-lg md:text-xl text-center mb-10">
-                        How I Help Traders Create Consistent, Automated Forex Returns
+                        How I Help Traders Create Consistent, Automated Trading Returns
                     </p>
                 </ScrollAnimate>
 
