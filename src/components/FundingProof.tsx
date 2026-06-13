@@ -11,7 +11,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[200%] h-[600px] rounded-[50%] -translate-y-1/2" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 60%, #0a0a0a 100%)' }} />
             </div>
 
-            <div className="relative max-w-3xl mx-auto px-4 md:px-6">
+            <div className="relative max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
                 {/* Section Header */}
                 <ScrollAnimate>
                     <div className="text-center mb-10">
@@ -28,7 +28,7 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                 </ScrollAnimate>
 
                 {/* Content */}
-                <div className="max-w-2xl mx-auto mb-8 text-gray-300 font-semibold">
+                <div className="max-w-4xl mx-auto mb-8 text-gray-300 font-semibold">
                     <p className="mb-6 text-lg">
                         I've spent years building, breaking, refining, and rebuilding automated systems through every kind of market condition imaginable.
                     </p>
@@ -77,10 +77,10 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                 </div>
 
                 {/* CTA Button - Positioned to overlap next section */}
-                <div className="max-w-3xl mx-auto relative z-10 translate-y-1/2">
+                <div className="max-w-4xl mx-auto relative z-10 translate-y-1/2">
                     <button 
                         onClick={openPopup}
-                        className="block bg-[#A60D60] max-w-3xl px-10 mx-auto hover:bg-[#A60D60]/90 text-white font-extrabold py-5 rounded-full text-lg md:text-xl uppercase tracking-wide text-center transition-all hover:shadow-[0_0_30px_rgba(166,13,96,0.4)] cursor-pointer"
+                        className="block bg-[#A60D60] max-w-4xl px-10 mx-auto hover:bg-[#A60D60]/90 text-white font-extrabold py-5 rounded-full text-lg md:text-xl uppercase tracking-wide text-center transition-all hover:shadow-[0_0_30px_rgba(166,13,96,0.4)] cursor-pointer"
                     >
                         Apply Now
                     </button>

@@ -11,7 +11,7 @@ export default function Guarantee() {
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#00FF00]/10 rounded-full blur-[150px]" />
             </div>
 
-            <div className="relative max-w-3xl mx-auto px-4 md:px-6 text-center">
+            <div className="relative max-w-6xl mx-auto px-4 md:px-8 lg:px-12 text-center">
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#00FF00] rounded-full mb-8">
                     <Zap className="w-4 h-4 text-black" />
@@ -24,7 +24,7 @@ export default function Guarantee() {
                     <span className="text-[#00FF00]">Funded Trading Journey?</span>
                 </h2>
 
-                <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+                <p className="text-gray-400 text-lg mb-8 max-w-4xl mx-auto">
                     Apply now and get access to our complete trading system, strategies, coaching, and a funded account to trade with.
                 </p>
 

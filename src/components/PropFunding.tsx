@@ -84,7 +84,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
         <section>
             {/* Stop Trading Like a Hobbyist Section */}
             <div className="py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 40%, #B4348C 100%)' }}>
-                <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
+                <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-12 text-center">
                     <ScrollAnimate>
                         <h2
                             className="text-3xl md:text-4xl lg:text-5xl font-black text-[#A60D60] mb-4"
@@ -100,7 +100,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                         </h3>
                     </ScrollAnimate>
 
-                    <div className="space-y-6 max-w-3xl mx-auto text-left">
+                    <div className="space-y-6 max-w-4xl mx-auto text-left">
                         <p className="text-white font-semibold text-lg md:text-xl leading-relaxed">
                             Let's be real… you can't grow a meaningful trading account with whatever's left after bills and a tired 9-5.
                         </p>
@@ -133,7 +133,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                     </div>
 
                     {/* The Reality Box */}
-                    <div className="mt-10 max-w-2xl mx-auto">
+                    <div className="mt-10 max-w-4xl mx-auto">
                         <div className="bg-white/10 rounded-xl p-6">
                             <h4 className="text-white font-black text-xl mb-4">The Reality:</h4>
                             <div className="space-y-4">
@@ -174,7 +174,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
 
             {/* Guaranteed $100K Section */}
             <div className="py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 60%, #0a0a0a 100%)' }}>
-                <div className="max-w-4xl mx-auto px-4 md:px-6">
+                <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
                     <ScrollAnimate>
                         <div className="text-center mb-10">
                             <h2
@@ -186,7 +186,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                         </div>
                     </ScrollAnimate>
 
-                    <div className="space-y-6 max-w-3xl mx-auto">
+                    <div className="space-y-6 max-w-4xl mx-auto">
                         <p className="text-gray-300 font-semibold text-lg leading-relaxed">
                             I will help to give you your time back and let you compound serious wealth compared to exhausting manual charting and emotional day trading.
                         </p>
@@ -237,7 +237,7 @@ export default function PropFunding({ openPopup }: { openPopup: () => void }) {
                     </ScrollAnimate>
 
                     {/* Testimonial Card - Centered */}
-                    <div className="max-w-2xl mx-auto text-center">
+                    <div className="max-w-4xl mx-auto text-center">
                         <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-3 sm:mb-4">
                             {testimonials[activeTestimonial].title}
                         </h3>

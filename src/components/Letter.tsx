@@ -6,7 +6,7 @@ import ScrollAnimate from './ScrollAnimate';
 export default function Letter({ openPopup }: { openPopup: () => void }) {
     return (
         <section className="py-16 md:py-20" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 60%, #0a0a0a 100%)' }}>
-            <div className="max-w-2xl mx-auto px-4 md:px-6">
+            <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
                 {/* Section Title */}
                 <ScrollAnimate>
                     <h2 className="text-xl md:text-2xl font-black text-white text-center mb-2">
@@ -97,7 +97,7 @@ export default function Letter({ openPopup }: { openPopup: () => void }) {
                     </div>
 
                     {/* Verified Results Overlay - Mobile: Static, Desktop: Absolute */}
-                    <div className="relative md:absolute md:-bottom-20 md:left-1/2 md:-translate-x-1/2 w-full md:w-[90%] md:max-w-2xl mt-4 md:mt-0">
+                    <div className="relative md:absolute md:-bottom-20 md:left-1/2 md:-translate-x-1/2 w-full md:w-[90%] md:max-w-4xl mt-4 md:mt-0">
                         <div className="bg-[#1a1a1a] border border-white/10 rounded-xl shadow-xl p-4 md:p-6 flex flex-col sm:flex-row items-start gap-3 md:gap-4">
                             <div className="w-10 h-10 md:w-14 md:h-14 flex items-center justify-center flex-shrink-0">
                                 <img

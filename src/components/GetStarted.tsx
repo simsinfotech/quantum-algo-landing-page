@@ -5,7 +5,7 @@ import ScrollAnimate from './ScrollAnimate';
 export default function GetStarted({ openPopup }: { openPopup: () => void }) {
     return (
         <section className="py-16 md:py-24" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 60%, #0a0a0a 100%)' }}>
-            <div className="max-w-4xl mx-auto px-4 md:px-6">
+            <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
                 {/* Section Header */}
                 <ScrollAnimate>
                     <div className="text-center mb-12">
@@ -22,7 +22,7 @@ export default function GetStarted({ openPopup }: { openPopup: () => void }) {
                 </ScrollAnimate>
 
                 {/* Steps */}
-                <div className="space-y-6 max-w-2xl mx-auto">
+                <div className="space-y-6 max-w-4xl mx-auto">
                     <ScrollAnimate delay={100}>
                         <div className="flex items-start gap-4 bg-[#1a1a1a] border border-white/10 rounded-xl p-6 shadow-sm">
                             <div className="w-12 h-12 bg-[#A60D60] rounded-full flex items-center justify-center flex-shrink-0">

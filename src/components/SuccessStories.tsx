@@ -6,7 +6,7 @@ export default function SuccessStories() {
     return (
         <section className="pt-16 pb-0" style={{ background: 'linear-gradient(135deg, #B4348C 0%, #0a0a0a 60%, #0a0a0a 100%)' }}>
 
-            <div className="relative max-w-4xl mx-auto px-4 md:px-6">
+            <div className="relative max-w-6xl mx-auto px-4 md:px-8 lg:px-12">
                 {/* Title at top */}
                 <ScrollAnimate>
                     <div className="text-center mb-8 sm:mb-12">
