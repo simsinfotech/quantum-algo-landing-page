@@ -1,39 +1,17 @@
 'use client';
 
-import Link from 'next/link';
 import { Star } from 'lucide-react';
 import ScrollAnimate from './ScrollAnimate';
 
 export default function Hero({ openPopup }: { openPopup: () => void }) {
     return (
-        <section className="relative pt-4 sm:pt-6 pb-8 sm:pb-12 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 40%, #B4348C 100%)' }}>
+        <section className="relative pt-20 sm:pt-24 md:pt-28 pb-8 sm:pb-12 overflow-hidden" style={{ background: 'linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 40%, #B4348C 100%)' }}>
             {/* Background gradient effects */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] sm:w-[1000px] h-[400px] sm:h-[600px] bg-[#A60D60]/10 rounded-full blur-[100px] sm:blur-[150px]" />
             </div>
 
             <div className="relative max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
-                {/* Header with Logo and Button */}
-                <div className="flex justify-between items-center mb-6 sm:mb-12 pt-2">
-                    {/* QA Logo */}
-                    <div className="flex flex-col items-start">
-                        <img
-                            src="/QA%20logo.png"
-                            alt="Quantum Algo"
-                            className="h-8 sm:h-12 md:h-16 w-auto"
-                        />
-                        <span className="text-gray-400 text-[8px] sm:text-[10px] md:text-xs font-semibold tracking-wide mt-0.5">by MarketScore</span>
-                    </div>
-
-                    {/* Apply Now Button */}
-           <button
-  type="button"
-  onClick={openPopup}
-  className="bg-transparent hover:bg-white/10 text-white font-bold py-1.5 sm:py-2 px-4 sm:px-6 md:px-8 rounded-full text-xs sm:text-sm md:text-base uppercase tracking-wide border-2 border-white transition-all cursor-pointer"
->
-  APPLY NOW
-</button>
-                </div>
 
                 <div className="text-center">
                     {/* Pre-headline */}

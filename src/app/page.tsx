@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import AsSeenIn from '@/components/AsSeenIn';
 import Letter from '@/components/Letter';
@@ -19,6 +20,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] [&>section]:mt-[-1px] [&>*]:border-0">
+      <Navbar openPopup={() => setOpen(true)} />
       <Hero openPopup={() => setOpen(true)} />
       <AsSeenIn/>
       <Letter openPopup={() => setOpen(true)} />
