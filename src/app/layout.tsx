@@ -68,11 +68,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/QA logo.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/QA logo.png", type: "image/png", sizes: "192x192" },
     ],
     apple: [{ url: "/QA logo.png" }],
-    shortcut: "/QA logo.png",
+    shortcut: "/favicon.ico",
   },
   manifest: "/manifest.json",
   alternates: {
