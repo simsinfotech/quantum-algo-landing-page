@@ -19,10 +19,8 @@ export default function FundingProof({ openPopup }: { openPopup: () => void }) {
                             className="text-2xl md:text-3xl lg:text-4xl font-black text-white leading-tight"
                             style={{ fontFamily: '"Clash Display", sans-serif', fontStyle: 'italic', fontWeight: 900 }}
                         >
-                            <strong><em>I've Helped Traders<br />
-                            Access $30M+ In Capital<br />
-                            Using Disciplined, AI-Driven<br />
-                            Trading Strategies</em></strong>
+                            <strong><em>I've Helped Traders Access $30M+ In Capital<br />
+                            Using Disciplined, AI-Driven Trading Strategies</em></strong>
                         </h2>
                     </div>
                 </ScrollAnimate>
