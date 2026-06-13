@@ -47,7 +47,7 @@ export default function Navbar({ openPopup }: { openPopup: () => void }) {
                     : 'bg-transparent'
             }`}
         >
-            <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
+            <div className="w-full px-4 md:px-10 lg:px-16 xl:px-20">
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Logo */}
                     <a href="#" className="flex flex-col items-start flex-shrink-0">
