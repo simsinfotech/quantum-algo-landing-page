@@ -97,15 +97,21 @@
 /* Phone Input Row */
 .phone-input-container {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
 }
 
 .phone-input-container select {
-  width: 20%;
+  width: auto;
+  min-width: 90px;
+  max-width: 110px;
+  padding: 14px 8px;
+  font-size: 14px;
+  flex-shrink: 0;
 }
 
 .phone-input-container input {
-  width: 80%;
+  flex: 1;
 }
 
 /* CTA Button */
@@ -149,12 +155,10 @@
   }
 
   .phone-input-container select {
-    width: 25%;
-    padding: 13px;
-  }
-
-  .phone-input-container input {
-    width: 72%;
+    min-width: 80px;
+    max-width: 100px;
+    padding: 12px 6px;
+    font-size: 13px;
   }
 
   .popup-logo {

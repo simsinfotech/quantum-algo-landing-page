@@ -123,7 +123,7 @@ const handleCountryChange = (e: ChangeEvent<HTMLSelectElement>) => {
           
 
           {/* Phone Section */}
-          <div className="phone-input-container flex gap-2">
+          <div className="phone-input-container">
  <select
   name="country_code"
   required
